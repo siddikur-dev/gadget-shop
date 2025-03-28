@@ -21,7 +21,7 @@ const Product = ({ product }) => {
         </h2>
 
         <button className="btn" onClick={handleShow}>
-          {show ? "Hide" : "Show"}
+          {show ? "Hide-Data" : "Show-Data"}
         </button>
         {/* Show Function */}
         {show && (
@@ -33,7 +33,7 @@ const Product = ({ product }) => {
               <span className="span">Color:</span> {product.color}
             </h3>
             <h3>
-              <span className="span">Discount:</span> ${product.discount}
+              <span className="span">Discount:</span> {product.discount ? `$${product.discount}` : "No-Discount"}
             </h3>
           </div>
         )}

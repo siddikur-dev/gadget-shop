@@ -7,7 +7,7 @@ const Products = ({ fetchProductPromise }) => {
   const produscts = productPromise.products;
   return (
     <div>
-      <h1>All Products:{produscts.length}</h1>
+      <h1 >All Products:{produscts.length}</h1>
 {
           <div className="productContainer">
             {produscts.map((product) => (
