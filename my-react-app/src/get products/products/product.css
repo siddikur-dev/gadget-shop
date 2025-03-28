@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+}
+
+.productContainer {
+    /* display:flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+
+    justify-content: center;
+    border: 1px solid saddlebrown;
+    width: 250px;
+    padding: 20px;
+
+    margin: 10px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1,1fr); */
+}
+
+
+.productImg {
+    width: 220px;
+    /* border-radius: 5px; */
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.btn:hover {
+    background-color: goldenrod;
+}
+
+
+
+h3 {
+    text-align: left;
+    font-size: 16px;
+    color: #222;
+}
+
+.span {
+    text-align: left;
+    font-size: 20px;
+    color: purple
+}
+
+.phone-model {
+    text-align: left;
+    /* padding: 10px; */
+}
